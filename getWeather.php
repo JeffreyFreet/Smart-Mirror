@@ -1,5 +1,5 @@
 <?php
-    $string = file_get_contents("http://api.wunderground.com/api/17f8bdf2e2d24e9d/conditions/q/WI/Milwaukee.json");
+    $string = file_get_contents("your api code here");
     $json_decoded = json_decode($string, true);
 
     $location_full = $json_decoded['current_observation']['display_location']['full'];
