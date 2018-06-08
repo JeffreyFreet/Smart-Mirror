@@ -1,0 +1,24 @@
+#body {
+    margin: 0px;
+    padding 0px;
+    background-color: black;
+}
+
+#time{
+    color: white;
+    font-size: 64px;
+    float: right;
+}
+#weather{
+    color: white;
+    font-size: 36px;
+    float: left;
+}
+
+#weatherIcon {
+    height: 100px;
+}
+
+div {
+    max-width: 50%;
+}
